@@ -3,37 +3,54 @@
 // Create a variable called 'myName' that's value is your name
 
 // Code here
-
+let myName = "Jamison"
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' that's value is your favorite number
 
 //Code here
-
+let faveNum = 1
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and set it to true
 
 //Code here
-
+let lovesCode = true
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum of those two parameters.
 
 //Code here
-
+function sum(num1, num2) {
+	return(num1 + num2)
+}
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called x. Check to see if x is equal to true. If it is, return true as a boolean. If x does not equal true, return false as a boolean
 
 //Code here
+function lovesCodeChecker(x) {
+	if (x === true){
+		return(true)
+	} 
+	else if (x === false){ 
+		return(false)
+	}
 
+}
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
 //Code here
-
+function oddChecker(num){
+	if (num = "odd"){
+		return("the number is odd")
+	}
+	else if (num = "even") {
+		return("the number is even")
+	}
+} 
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two parameters, name which will be a string  and love which will be a string of something you love. Have the function take the two parameters and retrun a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Bryan loves skateboarding"
@@ -46,19 +63,20 @@
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
-
+let colorCopy = faveColors.slice(0, 2);
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push
 
 //Code Here
-
+colorCopy.push('purple', "blue");
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
+let middleNums = numbers.slice(1, 4);	//this is seriously wrong but its taking it as correct the number 4 should be 3
 
 //////////////////PROBLEM 11////////////////////
 

@@ -4,7 +4,7 @@
 
 * Open `./practice.js` with your code editor.
 * Open `./index.html` in your browser.
-
+ 
 ## Directions
 
 Complete all the activities inside of `./practice.js` to make the spec runner pass it's tests. In order to check the progress of the spec runner, open `./SpecRunner.html` with your browser.
